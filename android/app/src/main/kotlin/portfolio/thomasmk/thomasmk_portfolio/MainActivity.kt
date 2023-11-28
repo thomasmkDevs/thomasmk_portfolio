@@ -1,6 +1,0 @@
-package portfolio.thomasmk.thomasmk_portfolio
-
-import io.flutter.embedding.android.FlutterActivity
-
-class MainActivity: FlutterActivity() {
-}
