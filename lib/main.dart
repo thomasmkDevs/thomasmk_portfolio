@@ -66,16 +66,13 @@ class HomePage extends StatelessWidget {
                                     25.0), // half of height and width of Image
                               ),
                               child: IconButton(
-                                icon: const Icon(
-                                  Icons.audiotrack,
-                                  size: 20.0,
-                                ),
-                                color: Color(0xFF162A49),
+                                icon: Image.asset("assets/youtube.png"),
+                                color: const Color(0xFF162A49),
                                 onPressed: () {},
                               ),
                             ),
                           )),
-                      Container(
+                      SizedBox(
                           height: 45.0,
                           width: 45.0,
                           child: Center(
@@ -86,10 +83,7 @@ class HomePage extends StatelessWidget {
                                     25.0), // half of height and width of Image
                               ),
                               child: IconButton(
-                                icon: const Icon(
-                                  Icons.fingerprint,
-                                  size: 20.0,
-                                ),
+                                icon: Image.asset("assets/instagram.png"),
                                 color: Color(0xFF162A49),
                                 onPressed: () {},
                               ),
@@ -106,11 +100,41 @@ class HomePage extends StatelessWidget {
                                     25.0), // half of height and width of Image
                               ),
                               child: IconButton(
-                                icon: const Icon(
-                                  Icons.call,
-                                  size: 20.0,
-                                ),
+                                icon: Image.asset("assets/linkedin.png"),
                                 color: const Color(0xFF162A49),
+                                onPressed: () {},
+                              ),
+                            ),
+                          )),
+                      SizedBox(
+                          height: 45.0,
+                          width: 45.0,
+                          child: Center(
+                            child: Card(
+                              elevation: 5.0,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(
+                                    25.0), // half of height and width of Image
+                              ),
+                              child: IconButton(
+                                icon: Image.asset("assets/medium.png"),
+                                color: const Color(0xFF162A49),
+                                onPressed: () {},
+                              ),
+                            ),
+                          )),
+                      SizedBox(
+                          height: 45.0,
+                          width: 45.0,
+                          child: Center(
+                            child: Card(
+                              elevation: 5.0,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(
+                                    25.0), // half of height and width of Image
+                              ),
+                              child: IconButton(
+                                icon: Image.asset("assets/stackoverflow.png"),
                                 onPressed: () {},
                               ),
                             ),
@@ -121,13 +145,6 @@ class HomePage extends StatelessWidget {
                 const Padding(padding: EdgeInsets.only(top: 20)),
                 const Text(
                   'Copyright ©2020, All Rights Reserved.',
-                  style: TextStyle(
-                      fontWeight: FontWeight.w300,
-                      fontSize: 12.0,
-                      color: Color(0xFF162A49)),
-                ),
-                const Text(
-                  'Powered by Nexsport',
                   style: TextStyle(
                       fontWeight: FontWeight.w300,
                       fontSize: 12.0,
